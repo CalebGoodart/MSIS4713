@@ -19,6 +19,6 @@ while True:  # checks for the two cases and subtracts the entered coin value fro
         print("Enjoy your soda")
         sys.exit()
     elif PRICE < 0:  # case for change
-        print(str(abs(PRICE) + " is your change, Enjoy your soda"))
+        print(str(abs(PRICE)) + " cents is your change, Enjoy your soda")
         print("Enjoy your soda")
         sys.exit()
