@@ -25,7 +25,7 @@ def mathsfact(x):  # The Math.factorial version
 while(True):
     num = int(input("Input an Integer (not too big) greater than 1: "))
 
-    if num > 20:
+    if num > 20 and num < 100:
         print("Lets not break the processor, try again")
     elif num > 100:
         print("Seriously, this number is too big!  Exiting now.")
