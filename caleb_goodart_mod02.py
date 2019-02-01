@@ -5,9 +5,6 @@
 # Mod02
 
 
-import sys
-
-
 def fuc(x):
     return (x**x) + x
 
