@@ -11,7 +11,7 @@ list_of_ten = []
 print("Create a list filled with some words and some numbers.\n")
 
 for i in range(10):
-    list_of_ten[i] = input("Please enter a number or a word: ")
+    list_of_ten.append(input("Please enter a number or a word: "))
 
 print("This list has 10 items.")
 if len(list_of_ten) == 10:
@@ -39,9 +39,9 @@ for i in range(len(list_of_ten)):
     print(list_of_ten[i])
 
 if "cat" in list_of_ten:
-    print("There is cat is in the list")
+    print("\nThere is cat is in the list")
 else:
-    print("There is no cat in this list")
+    print("\nThere is no cat in this list")
 
 marvel_char = input("\nPlease insert the name of a Marvel character ")
 index = randint(0, 9)
@@ -57,11 +57,11 @@ for k in range(len(list_of_ten)):
     except ValueError:
         continue
 
-print("\nThese are the integers from the list\n")
+print("\nThese are the integers from the list")
 print(ints_list)
 
 list_of_ten = tuple(list_of_ten)
-print("This is the tuple of the list\n")
+print("\nThis is the tuple of the list\n")
 print(list_of_ten)
 
 try:
