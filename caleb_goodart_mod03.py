@@ -7,8 +7,7 @@
 
 from random import randint
 
-list_of_ten = [1, 2, 3, 4, "cat", 6, 7, 8, 9, 10]
-
+list_of_ten = []
 print("Create a list filled with some words and some numbers.\n")
 
 for i in range(10):
@@ -50,6 +49,7 @@ print("\n" + marvel_char + " is at index " + str(index))
 list_of_ten.insert(index, marvel_char)
 
 ints_list = []
+# User try catch block to filter the ints out
 for k in range(len(list_of_ten)):
     try:
         ints_list.append(int(list_of_ten[k]))
