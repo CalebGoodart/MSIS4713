@@ -22,7 +22,7 @@ def mathsfact(x):  # The Math.factorial version
     return math.factorial(x)
 
 
-while(True):
+while True:
     num = int(input("Input an Integer (not too big) greater than 1: "))
 
     if num > 20 and num < 100:
