@@ -103,10 +103,7 @@ def test_password(password):
     return 0
 
 
-count = 0
-errors = 0
-word = "^AbCd1e?f2g%)"
-while count < 10:
+while True:
 
     pass_length = 12 # int(input("Enter a password length: "))
 
@@ -115,13 +112,6 @@ while count < 10:
     elif pass_length > 20:
         print("password is too long!")
     else:
-        errors += make_password(pass_length)
-        count += 1
-
-
-print(errors)
-
-while True:
-    if word == make_password(12):
-        print(word)
+        make_password(pass_length)
         sys.exit()
+
